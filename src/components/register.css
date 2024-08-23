@@ -1,0 +1,91 @@
+/* :root {
+    --primary-color: #7C7C7C;
+    --secondary-color: #72DB73;
+    --text-color: #ffffff;
+    --background-color: #1a1a1a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Single+Day&display=swap');
+
+a{
+    color:var(--secondary-color)
+}
+button{
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+}
+#checkbox{
+    width: 20px;
+}
+
+.condition{
+    text-align: start;
+    margin: 0 25%;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+.last{
+    display: flex;
+    margin: 0 25%;
+}
+.heading h1{
+    color: var(--secondary-color) ;
+    font-family: single day;
+    font-weight: 400;
+}
+.heading p{
+    color: white;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    background-color: #292929;
+    border-style: none;
+    color: var(--primary-color) ;
+
+}
+
+.left{
+
+   width: 50%;
+   /* background-image: url('../assets/image 13.jpg'); */
+   /* color: white; */
+}
+.right{
+    text-align: center;
+    color: var(--primary-color) ;
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main{
+display: flex;
+flex: 1;
+}
+body {
+    height: 100%;
+    /* color: var(--primary-color) ; */
+    padding: 0;
+    
+}
+span{
+    color: var(--secondary-color);
+} 
